@@ -17,7 +17,7 @@ func main() {
 }
 func main() {
     urlValues := url.Values{}
-    urlValues.Add("name","zhaofan33")
+    urlValues.Add("name","zhaofan3")
     urlValues.Add("age","223")
     resp, _ := http.PostForm("http://www.baidu.com",urlValues)
     body, _ := ioutil.ReadAll(resp.Body)
